@@ -66,7 +66,7 @@ function App() {
 
           <div className="heroActions">
             <a href="#projects" className='primaryButton'>View Projects</a>
-            <a href="/Ruqaiya_Roomi_Resume.pdf" className='secondaryButton' target='_blank'>Download Resume</a>
+            <a href="/Ruqaiya_Roomi.pdf" className='secondaryButton' target='_blank'>Download Resume</a>
           </div>
 
         </div>
