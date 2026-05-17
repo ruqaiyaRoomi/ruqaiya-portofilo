@@ -17,7 +17,8 @@ const projects: Project[] = [
     description: 'A sign language learning web and recognition app that helps beginners practice ASL fingerspelling through structured lessons, quizzes, progress tracking, and real-time camera-based recognition',
     tags: ['Vue.js', 'Javascript', 'MediaPipe', 'REST API', 'Vercel', 'UI/UX'],
     image:'/images/gestura.png',
-    link: 'https://gestura-frontend-iota.vercel.app/'
+    link: 'https://gestura-frontend-iota.vercel.app/',
+    github: 'https://github.com/ruqaiyaRoomi/gestura.git',
   },
   {
     title: 'Social Networking Web App',
@@ -32,6 +33,8 @@ const projects: Project[] = [
     description: 'A browser-based Minesweeper game built with interactive tile reveal logic, win/loss, and real-time state updates',
     image: '/images/minesweeper.png',
     tags: ['JavaScript', 'HTML', 'CSS', 'Game Logic'],
+    link: 'https://minesweeper-web-game.vercel.app/',
+    github: 'https://github.com/ruqaiyaRoomi/minesweeper-web-game.git'
   }
 
 ]
@@ -170,7 +173,7 @@ function App() {
                 )}
 
                 {project.github && (
-                  <a href={project.github} target='_blank' rel='noreferrer'>GitHub</a>
+                  <a href={project.github} target='_blank' rel='noreferrer'>View Code</a>
                 )}
               </div>
             </article>
