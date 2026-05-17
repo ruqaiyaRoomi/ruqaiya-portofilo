@@ -26,6 +26,7 @@ const projects: Project[] = [
     description: 'An Instagram style social networking platform with user registration, login, posting, likes, comments, follow/unfollow, search, profiles and notifications.',
     image: '/images/socialNetworking.png',
     tags: ['JavaScript', 'Node.js','Express', 'MongoDB','REST API', 'Postman', 'UI/UX'],
+    github: 'https://github.com/ruqaiyaRoomi/soical-networking-site.git'
   },
   {
     title: 'Minesweeper',
