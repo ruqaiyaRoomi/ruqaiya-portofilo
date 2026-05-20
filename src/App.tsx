@@ -191,7 +191,7 @@ function App() {
       <div className="contactLinks">
         <a href="mailto:ruqaiyaroomi@gmail.com">Email</a>
         <a href="https://github.com/ruqaiyaRoomi" target='_blank'>GitHub</a>
-        <a href="#" target='_blank'>LinkedIn</a>
+        <a href="https://www.linkedin.com/in/ruqaiya-roomi" target='_blank'>LinkedIn</a>
       </div>
     </section>
     </main>
